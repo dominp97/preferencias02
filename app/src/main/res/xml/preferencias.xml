@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="nickname"
+        android:title="Nickname"
+        android:summary="Tan solo escribe tu apodo">
+    </EditTextPreference>
+    <CheckBoxPreference
+        android:key="gustanSuperheroes"
+        android:title="¿Te gustan los superheroes?"
+        android:summary="Para gustos los colores"
+        android:defaultValue="true">
+    </CheckBoxPreference>
+</PreferenceScreen>
